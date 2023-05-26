@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center ;
+    min-height: 100vh;
+}
+.ring{
+    border:  4px 4px solid ;
+    position: absolute;
+    width:200px;
+    height:200px ;
+    border-radius: 50%;
+    border-top: rgb(47, 5, 216) 4px solid;
+    border-bottom: 4px white;
+    border-left: 4px white;
+    border-right: 4px white;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: animal 2s linear infinite;
+
+}
+
+
+@keyframes animal {
+    0%{  
+        transform: rotate(0 deg);  
+       box-shadow: 2px 2px 2px blanchedalmond; 
+    transform: scale(1.1); }
+       50%{
+           transform: rotate(90 deg);  
+           box-shadow: 2px 2px 2px rgb(205, 228, 255); 
+           transform: scale(1.3); 
+       }
+    100% {
+         transform: rotate(360 deg);
+         transform: scale(1.5); 
+     }
+        
+     
+ }
+
+/* body{
+    background-color: rgba(85, 222, 22, 0.821);
+}
+.banner{
+    width: 100%;
+     height: 100vh;
+   }
+video{
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+    height:100%;
+    position:relative;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    padding: 0;
+}
+.banner2{
+    color: azure;
+    text-align: center;
+    font-size:25px;
+    z-index: 1;
+    position:absolute;
+    top: 40%;
+    left: 10%;
+    font-size:90px;   
+}
+.div2 {
+   position:absolute;
+   top: 85% ;
+   left: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:whitesmoke;
+    margin-right: 30px;
+} */
